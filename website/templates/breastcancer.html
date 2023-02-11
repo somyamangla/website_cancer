@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BREAST CANCER PREDICTION</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1><center>PREDICT BREAST CANCER</center></h1>
+    <form action="/pred" method="POST">
+        <b> First value :  <input type="text", name='a', placeholder="enter 1"> <br><br>
+         Second value :  <input type="text", name='b', placeholder="enter 2"> <br><br>
+         Third value :  <input type="text", name='c', placeholder="enter 3"> <br><br>
+         Fourth value : <input type="text", name='d', placeholder="enter 4"> <br><br>
+         Fifth value :  <input type="text", name='e', placeholder="enter 5"> <br><br>
+         Sixth value :  <input type="text", name='f', placeholder="enter 6"> <br><br>
+         Seventh value :  <input type="text", name='g', placeholder="enter 7"> <br><br>
+         Eigth value : <input type="text", name='h', placeholder="enter 8"> <br><br>
+         Ninth value :  <input type="text", name='i', placeholder="enter 9"> <br><br>
+         Tenth value :  <input type="text", name='j', placeholder="enter 10"> <br><br>
+         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+     </form>
+     <br>
+        {{ prediction_text}}
+        <br>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
